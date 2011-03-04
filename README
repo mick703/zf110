@@ -1,0 +1,7 @@
+A little project built on Zend Framework 1.11
+to try out some new features that Zend Framework 1.11 provides
+
+Interesting things to try out:
+*Try out Zend_Application, Zend_Loader_Autoloader and application configuration with resource plugins. 
+*Try integrating ZF with Doctrine 2
+
