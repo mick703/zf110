@@ -1,0 +1,26 @@
+##
+## Apache configuration file for Forum Sentencing Management System
+##
+## Please symlink this file into the appropriate apache configuration
+## directory. ie /etc/apache/sites-available
+##
+## Note that there is a .htaccess file inside the public dir that needs
+## to be configured also (look at baseDir)
+
+Alias /zf110 "/home/mingya/Dropbox/projects/zf110/public"
+<Directory "/home/mingya/Dropbox/projects/zf110/public">
+    
+    ## Standard rules
+    Options Indexes MultiViews FollowSymlinks
+    AllowOverride all
+    Order deny,allow
+    Deny from all
+    Allow from 127.0.0.0/255.0.0.0 ::1/128
+    Allow from 10.100.10.0/255.255.255.0 
+
+    ## Custom PHP overrides
+
+    ## Custom Logging
+
+</Directory>
+
